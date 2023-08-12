@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Page</title>
+    
+    <!-- Link to an external CSS file -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="weather-app">
+        <h1>Weather Information</h1>
+        <div class="weatherSearchContainer">
+            <input id="weatherInput" placeholder="Enter a Location to Discover the Weather">
+            <button id="searchWeatherButton">Search</button>
+        </div>
+
+        <div id="weatherDataContainer">
+                <!-- Loader will be placed here -->
+                <div class="loader" style="display: none;"></div>
+            <!-- Weather data will be dynamically added here by JavaScript -->
+        </div>
+    </div>
+
+    <!-- Link to an external JavaScript file -->
+    <script src="script.js"></script>
+</body>
+</html>

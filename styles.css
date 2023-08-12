@@ -1,0 +1,51 @@
+#weatherDataContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.weatherSearchContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 500px;
+}
+
+#weatherInput {
+    width: 300px;
+}
+
+.data-box {
+    background: lightblue;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    width: 8%;
+}
+
+.data-field {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.data-field > span {
+    margin-left: 1em;
+    font-weight: 600;
+    /* font-style: italic; */
+}
+
+.loader {
+    border: 8px solid #f3f3f3; /* Light gray */
+    border-top: 8px solid #3498db; /* Blue */
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin: 0 auto;
+    animation: spin 0.8s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
